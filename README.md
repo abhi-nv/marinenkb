@@ -1,10 +1,10 @@
-# 🌊 Marine Data Verse
+# 🌊 MATSYA: Marine Data Verse
 
 [![CI/CD Pipeline](https://github.com/abhi-nv/marine-data-verse/actions/workflows/deploy.yml/badge.svg)](https://github.com/abhi-nv/marine-data-verse/actions/workflows/deploy.yml)
 [![Security Scan](https://github.com/abhi-nv/marine-data-verse/actions/workflows/security.yml/badge.svg)](https://github.com/abhi-nv/marine-data-verse/actions/workflows/security.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-An AI-Driven Unified Data Platform for Oceanographic, Fisheries, and Molecular Biodiversity Insights. Built for CMLRE's Smart India Hackathon 2025 challenge to address critical data integration challenges in marine science.
+**MATSYA** (Marine Analytics and Taxonomic System for Yield Assessment) is an AI-Driven Unified Data Platform for Oceanographic, Fisheries, and Molecular Biodiversity Insights. Built to address critical data integration challenges in marine science and support the Blue Economy initiative.
 
 ## 🚀 Features
 
@@ -12,7 +12,9 @@ An AI-Driven Unified Data Platform for Oceanographic, Fisheries, and Molecular B
 - **🧠 AI-Powered Analysis**: CNN species identification, eDNA sequence matching
 - **📊 Real-time Visualization**: Interactive maps, charts, environmental monitoring
 - **📐 Standards Compliance**: Darwin Core and OBIS-ENV standardization
-- **☁️ Cloud-Native**: Ready for deployment on AWS, Vercel, Netlify, and Docker
+- **☁️ Cloud-Native**: Multi-cloud deployment ready (AWS, Azure, Vercel, Netlify)
+- **🔬 Advanced Analytics**: Ecosystem analysis, correlation studies, predictive modeling
+- **🚢 Real-time Monitoring**: Research vessel tracking and sensor data integration
 
 ## 🛠️ Technology Stack
 
@@ -22,6 +24,32 @@ An AI-Driven Unified Data Platform for Oceanographic, Fisheries, and Molecular B
 - **Database**: Supabase (PostgreSQL)
 - **Charts**: Recharts
 - **Deployment**: Docker, GitHub Actions, Multi-cloud ready
+
+## 🧬 MATSYA Platform Features
+
+### AI-Powered Species Identification
+- **CNN-based Models**: DeepOtolith architecture for automated species identification
+- **Multi-modal Support**: Otoliths, specimens, microscopy images
+- **High Accuracy**: ~85% accuracy on Mediterranean species (AFORO database)
+- **Real-time Processing**: Fast image analysis with confidence scoring
+
+### eDNA Sequence Analysis
+- **BERT-like Models**: Advanced DNA sequence analysis using K-mer tokenization
+- **Multi-database Search**: BOLD, NCBI GenBank, SILVA, MIDORI integration
+- **Multiple Markers**: 12S rRNA, 16S rRNA, COI, ITS support
+- **Taxonomic Validation**: Complete lineage information with similarity scoring
+
+### Data Ingestion Pipeline
+- **Multi-format Support**: CSV, JSON, DwC-A, OBIS-ENV
+- **Automated Validation**: Great Expectations profiles for quality assessment
+- **Darwin Core Standardization**: Automatic conversion to international standards
+- **Real-time Processing**: Apache Kafka for high-throughput data streams
+
+### Advanced Analytics
+- **Ecosystem Analysis**: Biodiversity metrics, species dominance patterns
+- **Environmental Correlations**: Statistical analysis between biological and physical data
+- **Time Series Forecasting**: Prophet models for oceanographic trend prediction
+- **Graph Neural Networks**: Neo4j-based ecosystem relationship modeling
 
 ## 📋 Quick Start
 
@@ -50,6 +78,14 @@ npm run dev
 ```
 
 The application will be available at `http://localhost:8080`
+
+### Access MATSYA Platform
+
+Navigate to `/matsya` to access the full MATSYA platform with:
+- AI-powered species identification
+- eDNA sequence analysis
+- Data ingestion pipeline
+- Advanced analytics dashboard
 
 ## 🚀 Deployment Options
 
